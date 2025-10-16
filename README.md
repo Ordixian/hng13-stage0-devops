@@ -20,7 +20,7 @@ The project was executed locally on **Pop!_OS** and made publicly accessible usi
 ---
 
 ## 🌐 Deployment Details  
-**Server URL:** [https://lilian-gambogian-prevalently.ngrok-free.dev](https://lilian-gambogian-prevalently.ngrok-free.dev)  
+**Server URL:** [https://lilian-gambogian-prevalently.ngrok-free.dev/](https://lilian-gambogian-prevalently.ngrok-free.dev/)  
 **Deployed On:** 16th October 2025  
 **Platform:** NGINX (via Localhost + ngrok on Pop!_OS)  
 **Server IP:** _(N/A — using ngrok public tunnel)_
