@@ -2,7 +2,7 @@
 
 [![NGINX](https://img.shields.io/badge/Web%20Server-NGINX-green?style=flat-square&logo=nginx)](https://nginx.org/)  
 [![Pop!_OS](https://img.shields.io/badge/OS-Pop!__OS-blue?style=flat-square&logo=system76)](https://pop.system76.com/)  
-[![ngrok](https://img.shields.io/badge/Deployment-ngrok-lightgrey?style=flat-square&logo=ngrok)](https://ngrok.com/)  
+[![Oracle Cloud](https://img.shields.io/badge/Deployment-Oracle%20Cloud-lightgrey?style=flat-square&logo=oracle)](https://www.oracle.com/cloud/)  
 
 ---
 
@@ -15,24 +15,24 @@
 ## 📖 Project Description  
 This is my **Stage 0 DevOps Project** for the **HNG13 Internship**.  
 It deploys an **NGINX web server** that serves a **custom HTML page** over HTTP.  
-The project was executed locally on **Pop!_OS** and made publicly accessible using **ngrok**.
+The project was executed on **Pop!_OS** and deployed to a **public Oracle Cloud VPS**, making it accessible from the internet.
 
 ---
 
 ## 🌐 Deployment Details  
-**Server URL:** [https://lilian-gambogian-prevalently.ngrok-free.dev/](https://lilian-gambogian-prevalently.ngrok-free.dev/)  
-**Deployed On:** 16th October 2025  
-**Platform:** NGINX (via Localhost + ngrok on Pop!_OS)  
-**Server IP:** _(N/A — using ngrok public tunnel)_
+**Server URL:** [http://YOUR_ORACLE_PUBLIC_IP](http://YOUR_ORACLE_PUBLIC_IP)  
+**Deployed On:** 17th October 2025  
+**Platform:** NGINX (via Oracle Cloud VPS)  
+**Server IP:** `YOUR_ORACLE_PUBLIC_IP`
 
 ---
 
 ## ⚙️ Implementation Steps  
-1. Installed and configured **NGINX** on **Pop!_OS**.  
-2. Modified the default `/var/www/html/index.html` file with personal and project details.  
-3. Started the NGINX service to host the HTML page locally.  
-4. Exposed port **80** to the internet using **ngrok**.  
-5. Verified external accessibility of the page through the public ngrok URL.  
+1. Provisioned a **VPS** on **Oracle Cloud**.  
+2. Installed and configured **NGINX** on the server.  
+3. Modified the default `/var/www/html/index.html` file with personal and project details.  
+4. Opened **port 80** to the public internet.  
+5. Verified external accessibility of the page using the server's public IP.
 
 ---
 
@@ -42,13 +42,13 @@ The project was executed locally on **Pop!_OS** and made publicly accessible usi
 | **Operating System** | Pop!_OS (Linux-based) |
 | **Web Server** | NGINX |
 | **Frontend** | HTML & CSS |
-| **Deployment Tunnel** | ngrok |
+| **Deployment Platform** | Oracle Cloud VPS |
 
 ---
 
 ## ✅ Verification  
 You can view the live deployed page here:  
-👉 [**https://lilian-gambogian-prevalently.ngrok-free.dev**](https://lilian-gambogian-prevalently.ngrok-free.dev)
+👉 [http://YOUR_ORACLE_PUBLIC_IP](http://YOUR_ORACLE_PUBLIC_IP)
 
 ---
 
