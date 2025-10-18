@@ -14,24 +14,24 @@
 ## 📖 Project Description  
 This is my **Stage 0 DevOps Project** for the **HNG13 Internship**.  
 It deploys an **NGINX web server** that serves a **custom HTML page** over HTTP.  
-The project was executed on **Pop!_OS** and deployed to a **13.60.88.36**, making it accessible from the internet.
+The project was executed on **Pop!_OS** and deployed to an **AWS EC2 instance (IP: 13.60.88.36)**, making it publicly accessible from the internet.
 
 ---
 
 ## 🌐 Deployment Details  
-**Server URL:** [http://13.60.88.36](http://13.60.88.36)
+**Server URL:** [http://13.60.88.36](http://13.60.88.36)  
 **Deployed On:** 18th October 2025  
-**Platform:** NGINX (via AWS EC2)  
-**Server IP:** `13.60.88.36
+**Platform:** AWS EC2  
+**Web Server:** NGINX  
 
 ---
 
 ## ⚙️ Implementation Steps  
-1. Provisioned a **VPS** on **AWS EC2**.  
-2. Installed and configured **NGINX** on the server.  
-3. Modified the default `/var/www/html/index.html` file with personal and project details.  
-4. Opened **port 80** to the public internet.  
-5. Verified external accessibility of the page using the server's public IP.
+1. Provisioned a **VPS** using **AWS EC2 (Ubuntu 22.04)**.  
+2. Transferred the custom HTML file via SSH to `/var/www/html/index.html`.  
+3. Installed and configured **NGINX** to serve the page.  
+4. Opened **port 80 (HTTP)** for inbound traffic via the AWS Security Group.  
+5. Restarted NGINX and verified accessibility from external browsers.  
 
 ---
 
@@ -46,11 +46,11 @@ The project was executed on **Pop!_OS** and deployed to a **13.60.88.36**, makin
 ---
 
 ## ✅ Verification  
-You can view the live deployed page here:  
-👉 [http://13.60.88.36](http://13.60.88.36)
+Live Project: 👉 [http://13.60.88.36](http://13.60.88.36)  
 
+Successfully deployed using **AWS EC2 + NGINX** 🟢  
 
 ---
 
 ⭐ **HNG13 DevOps Track — Stage 0 Submission**  
-Proudly built with 💻 Linux, ☕ focus, and a dash of 🔥 persistence.
+Built with 💻 Linux, ☕ focus, and a dash of 🔥 persistence.
