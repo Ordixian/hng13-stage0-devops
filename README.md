@@ -1,8 +1,7 @@
 # 🚀 HNG13 DevOps Stage 0 Project  
 
 [![NGINX](https://img.shields.io/badge/Web%20Server-NGINX-green?style=flat-square&logo=nginx)](https://nginx.org/)  
-[![Pop!_OS](https://img.shields.io/badge/OS-Pop!__OS-blue?style=flat-square&logo=system76)](https://pop.system76.com/)  
-[![Oracle Cloud](https://img.shields.io/badge/Deployment-Oracle%20Cloud-lightgrey?style=flat-square&logo=oracle)](https://www.oracle.com/cloud/)  
+[![Pop!_OS](https://img.shields.io/badge/OS-Pop!__OS-blue?style=flat-square&logo=system76)](https://pop.system76.com/)   
 
 ---
 
@@ -15,15 +14,15 @@
 ## 📖 Project Description  
 This is my **Stage 0 DevOps Project** for the **HNG13 Internship**.  
 It deploys an **NGINX web server** that serves a **custom HTML page** over HTTP.  
-The project was executed on **Pop!_OS** and deployed to a **public Oracle Cloud VPS**, making it accessible from the internet.
+The project was executed on **Pop!_OS** and deployed to a **13.60.88.36**, making it accessible from the internet.
 
 ---
 
 ## 🌐 Deployment Details  
-**Server URL:** [http://YOUR_ORACLE_PUBLIC_IP](http://YOUR_ORACLE_PUBLIC_IP)  
+**Server URL:** [http://13.60.88.36](http://13.60.88.36)
 **Deployed On:** 17th October 2025  
-**Platform:** NGINX (via Oracle Cloud VPS)  
-**Server IP:** `YOUR_ORACLE_PUBLIC_IP`
+**Platform:** NGINX (via AWS EC2)  
+**Server IP:** `13.60.88.36
 
 ---
 
@@ -42,13 +41,14 @@ The project was executed on **Pop!_OS** and deployed to a **public Oracle Cloud 
 | **Operating System** | Pop!_OS (Linux-based) |
 | **Web Server** | NGINX |
 | **Frontend** | HTML & CSS |
-| **Deployment Platform** | Oracle Cloud VPS |
+| **Deployment Platform** | AWS EC2 |
 
 ---
 
 ## ✅ Verification  
 You can view the live deployed page here:  
-👉 [http://YOUR_ORACLE_PUBLIC_IP](http://YOUR_ORACLE_PUBLIC_IP)
+👉 [http://13.60.88.36](http://13.60.88.36)
+
 
 ---
 
