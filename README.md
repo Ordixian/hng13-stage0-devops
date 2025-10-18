@@ -20,14 +20,14 @@ The project was executed on **Pop!_OS** and deployed to a **13.60.88.36**, makin
 
 ## 🌐 Deployment Details  
 **Server URL:** [http://13.60.88.36](http://13.60.88.36)
-**Deployed On:** 17th October 2025  
+**Deployed On:** 18th October 2025  
 **Platform:** NGINX (via AWS EC2)  
 **Server IP:** `13.60.88.36
 
 ---
 
 ## ⚙️ Implementation Steps  
-1. Provisioned a **VPS** on **Oracle Cloud**.  
+1. Provisioned a **VPS** on **AWS EC2**.  
 2. Installed and configured **NGINX** on the server.  
 3. Modified the default `/var/www/html/index.html` file with personal and project details.  
 4. Opened **port 80** to the public internet.  
